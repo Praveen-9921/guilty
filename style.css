@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+  }
+h1{
+    text-align: center;
+    color: #aaf79e;
+}
+
+
+button{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(246, 216, 176);
+    color: rgb(255, 247, 237);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 1px #000;
+}
+
+button:hover{
+    background-color: #aaf79e;
+    transition-delay: .5s;
+}
